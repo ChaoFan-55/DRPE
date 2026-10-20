@@ -1,0 +1,28 @@
+{
+  "run_id": "drpe__m44__T01__idlg__r01",
+  "status": "success",
+  "row": {
+    "run_id": "drpe__m44__T01__idlg__r01",
+    "method": "drpe",
+    "model_seed": "44",
+    "target_id": "T01",
+    "sample_index": "20753",
+    "class_id": "1",
+    "class_name": "automobile",
+    "attack": "idlg",
+    "restart": "1",
+    "attack_base_seed": "3402",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/drpe/drpe__m44__T01__idlg__r01.json"
+  ],
+  "started_at_unix": 1787093710.9436595,
+  "finished_at_unix": 1787095269.858866,
+  "elapsed_seconds": 1558.9138336000033,
+  "return_code": 0
+}

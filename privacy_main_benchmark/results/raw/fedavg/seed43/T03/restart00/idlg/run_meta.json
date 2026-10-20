@@ -1,0 +1,28 @@
+{
+  "run_id": "fedavg__m43__T03__idlg__r00",
+  "status": "success",
+  "row": {
+    "run_id": "fedavg__m43__T03__idlg__r00",
+    "method": "fedavg",
+    "model_seed": "43",
+    "target_id": "T03",
+    "sample_index": "6332",
+    "class_id": "3",
+    "class_name": "cat",
+    "attack": "idlg",
+    "restart": "0",
+    "attack_base_seed": "3401",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m43__T03__idlg__r00.json"
+  ],
+  "started_at_unix": 1786860991.1703496,
+  "finished_at_unix": 1786861186.8152692,
+  "elapsed_seconds": 195.64389110007323,
+  "return_code": 0
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "drpe__m43__T06__dlg__r01",
+  "status": "success",
+  "row": {
+    "run_id": "drpe__m43__T06__dlg__r01",
+    "method": "drpe",
+    "model_seed": "43",
+    "target_id": "T06",
+    "sample_index": "6938",
+    "class_id": "6",
+    "class_name": "frog",
+    "attack": "dlg",
+    "restart": "1",
+    "attack_base_seed": "3402",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/drpe/drpe__m43__T06__dlg__r01.json"
+  ],
+  "started_at_unix": 1787071529.3673325,
+  "finished_at_unix": 1787072442.9974203,
+  "elapsed_seconds": 913.629820000031,
+  "return_code": 0
+}

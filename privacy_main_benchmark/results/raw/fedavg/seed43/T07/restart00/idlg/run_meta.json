@@ -1,0 +1,28 @@
+{
+  "run_id": "fedavg__m43__T07__idlg__r00",
+  "status": "success",
+  "row": {
+    "run_id": "fedavg__m43__T07__idlg__r00",
+    "method": "fedavg",
+    "model_seed": "43",
+    "target_id": "T07",
+    "sample_index": "8555",
+    "class_id": "7",
+    "class_name": "horse",
+    "attack": "idlg",
+    "restart": "0",
+    "attack_base_seed": "3401",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m43__T07__idlg__r00.json"
+  ],
+  "started_at_unix": 1786864143.7685006,
+  "finished_at_unix": 1786864340.0313816,
+  "elapsed_seconds": 196.26250820001587,
+  "return_code": 0
+}

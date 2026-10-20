@@ -1,0 +1,11 @@
+﻿target_id,dataset_index,class_id,class_name
+T00,7320,0,airplane
+T01,20753,1,automobile
+T02,30453,2,bird
+T03,6332,3,cat
+T04,16505,4,deer
+T05,45448,5,dog
+T06,6938,6,frog
+T07,8555,7,horse
+T08,34691,8,ship
+T09,23664,9,truck

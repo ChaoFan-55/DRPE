@@ -1,0 +1,8 @@
+{
+  "privacy_enabled": true,
+  "clip_norm": 2.950101638259676,
+  "noise_eta": 0.0,
+  "noise_std": 0.0,
+  "encoded_parameter_count": 3360911,
+  "calibration_path": "./configs/cifar10/resnet18/calibration/p75_precomputed.json"
+}

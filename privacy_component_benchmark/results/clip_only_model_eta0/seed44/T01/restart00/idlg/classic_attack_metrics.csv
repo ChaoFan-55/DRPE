@@ -1,0 +1,2 @@
+sample_index,attack_name,observation_mode,true_label,predicted_label,inferred_label,label_source,label_correct,mse,psnr,ssim,lpips,best_iteration,best_objective,best_match_loss,final_objective,final_match_loss,attack_seconds
+20753,idlg,decoded,1,1,1,head.bias:argmin_bias,1,0.009385867975652218,20.275255589930087,0.7640752196311951,0.01208898238837719,1201,0.020854689180850983,0.020835041999816895,0.026512742042541504,0.02649223804473877,1378.1245879000053

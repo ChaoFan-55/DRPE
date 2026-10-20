@@ -1,0 +1,28 @@
+{
+  "run_id": "drpe__m44__T02__idlg__r00",
+  "status": "success",
+  "row": {
+    "run_id": "drpe__m44__T02__idlg__r00",
+    "method": "drpe",
+    "model_seed": "44",
+    "target_id": "T02",
+    "sample_index": "30453",
+    "class_id": "2",
+    "class_name": "bird",
+    "attack": "idlg",
+    "restart": "0",
+    "attack_base_seed": "3401",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/drpe/drpe__m44__T02__idlg__r00.json"
+  ],
+  "started_at_unix": 1786823562.029836,
+  "finished_at_unix": 1786825085.8982406,
+  "elapsed_seconds": 1523.8686334000668,
+  "return_code": 0
+}

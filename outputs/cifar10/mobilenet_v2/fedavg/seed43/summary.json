@@ -1,0 +1,12 @@
+{
+  "dataset": "cifar10",
+  "model": "mobilenet_v2",
+  "method": "fedavg",
+  "seed": 43,
+  "best_round": 180.0,
+  "best_validation_accuracy": 86.46,
+  "test_accuracy": 85.61,
+  "test_loss": 0.6287492046833039,
+  "cumulative_uplink_mib": 3412.9058837890625,
+  "cumulative_downlink_mib": 3412.9058837890625
+}

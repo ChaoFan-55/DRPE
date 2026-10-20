@@ -1,0 +1,8 @@
+{
+  "python": "3.10.20",
+  "torch": "1.13.1+cu116",
+  "cuda_runtime": "11.6",
+  "gpu": "GeForce RTX 3050 Ti Laptop GPU",
+  "reference_config": "./outputs/cifar10/resnet18/drpe/seed44/resolved_config.json",
+  "python_executable": "python"
+}

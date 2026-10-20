@@ -1,0 +1,60 @@
+{
+  "protocol_name": "CIFAR10-ResNet18-round20-unified-privacy-main-v1",
+  "dataset": "cifar10",
+  "model": "resnet18",
+  "num_classes": 10,
+  "data_root": "./data",
+  "target_split": "train",
+  "target_selection_seed": 20260815,
+  "checkpoint_round": 20,
+  "transmission_round": 21,
+  "observed_client_id": 0,
+  "model_seeds": [
+    42,
+    43,
+    44
+  ],
+  "attacks": [
+    "dlg",
+    "idlg"
+  ],
+  "iterations": 2000,
+  "optimizer": "adam",
+  "matching_loss": "cosine",
+  "attack_lr": 0.1,
+  "label_lr": 0.05,
+  "tv_weight": 0.0001,
+  "label_entropy_weight": 0.001,
+  "print_every": 25,
+  "save_every": 25,
+  "compute_lpips": true,
+  "methods": [
+    "fedavg",
+    "random_k",
+    "top_k",
+    "dense_rp",
+    "powersgd",
+    "flocora",
+    "drpe"
+  ],
+  "pilot": {
+    "num_target_samples": 3,
+    "attack_base_seeds": [
+      3401
+    ]
+  },
+  "main": {
+    "num_target_samples": 10,
+    "attack_base_seeds": [
+      3401,
+      3402
+    ]
+  },
+  "notes": [
+    "target samples are class-balanced: one CIFAR-10 train example per class",
+    "model_seed selects the trained checkpoint / mechanism seed; attack_base_seed controls inversion initialization",
+    "for scripts whose internal initialization is seed + sample_index*1009, the same attack_base_seed is passed to every method",
+    "primary DRPE protocol keeps DLG=encoded and iDLG=decoded to match the established project threat-model convention",
+    "all outputs are isolated under privacy_main_benchmark/results"
+  ]
+}

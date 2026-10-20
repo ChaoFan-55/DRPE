@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar100",
+  "model": "resnet18",
+  "calibration_seed": 2026,
+  "source_rounds": 200,
+  "statistic": "quantile of round-mean client raw update norms",
+  "p50": 3.4210529110632613,
+  "p75": 4.672765514454915,
+  "p90": 5.075366027151921,
+  "selected_clip_norm": 4.672765514454915,
+  "compression_ratio": 0.3,
+  "block_size": 512,
+  "encoded_parameter_count": 3374798,
+  "noise_eta": 2.0,
+  "derived_noise_std": 0.005087214996603082
+}

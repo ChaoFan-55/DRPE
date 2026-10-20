@@ -1,0 +1,16 @@
+{
+  "client_sizes": [
+    5485,
+    1330,
+    4326,
+    4276,
+    5824,
+    9689,
+    5682,
+    2525,
+    3701,
+    2162
+  ],
+  "partition_seed": 44,
+  "sha256_ordered_client_indices": "1470f0a88653055f766e1e10f2b3fdc8cc0e8b2a8ff7d1b7ecde4e75b517a257"
+}

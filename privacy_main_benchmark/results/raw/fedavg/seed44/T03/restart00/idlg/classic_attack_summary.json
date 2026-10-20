@@ -1,0 +1,14 @@
+{
+  "num_samples": 1,
+  "mse_mean": 0.06338353455066681,
+  "mse_std": null,
+  "psnr_mean": 11.980235462588524,
+  "psnr_std": null,
+  "ssim_mean": 0.28893160820007324,
+  "ssim_std": null,
+  "lpips_mean": null,
+  "lpips_std": null,
+  "attack_seconds_mean": 186.0903004000429,
+  "attack_seconds_std": null,
+  "label_accuracy": 1.0
+}

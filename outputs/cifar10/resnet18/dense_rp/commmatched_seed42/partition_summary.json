@@ -1,0 +1,18 @@
+{
+  "client_sizes": [
+    3507,
+    3882,
+    2394,
+    6428,
+    5069,
+    4449,
+    6141,
+    2251,
+    2961,
+    7918
+  ],
+  "min_client_size": 2251,
+  "max_client_size": 7918,
+  "mean_client_size": 4500.0,
+  "partition_seed": 42
+}

@@ -1,0 +1,1 @@
+python ./scripts/run_classic_attack_experiment.py --config ./privacy_main_benchmark/results/generated_configs/drpe/drpe__m43__T05__dlg__r00.json

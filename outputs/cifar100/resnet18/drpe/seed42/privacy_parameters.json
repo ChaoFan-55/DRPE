@@ -1,0 +1,8 @@
+{
+  "privacy_enabled": true,
+  "clip_norm": 4.672765514454915,
+  "noise_eta": 2.0,
+  "noise_std": 0.005087214996603082,
+  "encoded_parameter_count": 3374798,
+  "calibration_path": "./outputs/cifar100/resnet18/calibration/calibration.json"
+}

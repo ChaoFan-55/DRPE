@@ -1,0 +1,8 @@
+{
+  "python": "3.10.20",
+  "torch": "1.13.1+cu116",
+  "cuda_runtime": "11.6",
+  "cuda_available": true,
+  "gpu": "GeForce RTX 3050 Ti Laptop GPU",
+  "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+}

@@ -1,0 +1,16 @@
+{
+  "method": "PriPrune-Magnitude (DRPE-protocol reimplementation)",
+  "seed": 44,
+  "smoke": false,
+  "rounds": 200,
+  "best_round": 158,
+  "best_validation_accuracy": 83.06,
+  "test_accuracy": 81.94,
+  "test_loss": 0.5660048676013947,
+  "cumulative_uplink_mib": 5053.973091125488,
+  "mean_round_uplink_mib": 25.269865455627443,
+  "mean_uplink_ratio": 0.2964187460991903,
+  "metric_scope": "global pruned model evaluated on the same global validation/test sets",
+  "reference_config": "./outputs/cifar10/resnet18/drpe/seed44/resolved_config.json",
+  "source_config_sha256": "b2871ebb43818e2f6c1a27c141442f6c51e24f20f2cc786e1620a49c5a2c2743"
+}

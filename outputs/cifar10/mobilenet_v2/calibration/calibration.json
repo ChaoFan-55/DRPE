@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar10",
+  "model": "mobilenet_v2",
+  "calibration_seed": 2026,
+  "source_rounds": 200,
+  "statistic": "quantile of round-mean client raw update norms",
+  "p50": 2.4479235045351055,
+  "p75": 3.6345938260312716,
+  "p90": 4.555506705469315,
+  "selected_clip_norm": 3.6345938260312716,
+  "compression_ratio": 0.3,
+  "block_size": 512,
+  "encoded_parameter_count": 672728,
+  "noise_eta": 2.0,
+  "derived_noise_std": 0.008862701619328566
+}

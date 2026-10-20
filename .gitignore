@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.matplotlib_cache/
+data/*
+!data/README.md
+*.pt
+*.pth
+*.zip
+reproduced_training/
+reproduced_attacks/
+**/results/cache/
+.venv/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+{
+  "run_id": "fedavg__m44__T09__idlg__r00",
+  "status": "success",
+  "row": {
+    "run_id": "fedavg__m44__T09__idlg__r00",
+    "method": "fedavg",
+    "model_seed": "44",
+    "target_id": "T09",
+    "sample_index": "23664",
+    "class_id": "9",
+    "class_name": "truck",
+    "attack": "idlg",
+    "restart": "0",
+    "attack_base_seed": "3401",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m44__T09__idlg__r00.json"
+  ],
+  "started_at_unix": 1786872795.5431652,
+  "finished_at_unix": 1786872991.5847106,
+  "elapsed_seconds": 196.0403929000022,
+  "return_code": 0
+}

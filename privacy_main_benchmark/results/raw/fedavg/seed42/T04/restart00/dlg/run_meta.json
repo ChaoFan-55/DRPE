@@ -1,0 +1,28 @@
+{
+  "run_id": "fedavg__m42__T04__dlg__r00",
+  "status": "success",
+  "row": {
+    "run_id": "fedavg__m42__T04__dlg__r00",
+    "method": "fedavg",
+    "model_seed": "42",
+    "target_id": "T04",
+    "sample_index": "16505",
+    "class_id": "4",
+    "class_name": "deer",
+    "attack": "dlg",
+    "restart": "0",
+    "attack_base_seed": "3401",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m42__T04__dlg__r00.json"
+  ],
+  "started_at_unix": 1786854538.975235,
+  "finished_at_unix": 1786854749.9681942,
+  "elapsed_seconds": 210.99180700001307,
+  "return_code": 0
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "fedavg__m43__T02__idlg__r00",
+  "status": "success",
+  "row": {
+    "run_id": "fedavg__m43__T02__idlg__r00",
+    "method": "fedavg",
+    "model_seed": "43",
+    "target_id": "T02",
+    "sample_index": "30453",
+    "class_id": "2",
+    "class_name": "bird",
+    "attack": "idlg",
+    "restart": "0",
+    "attack_base_seed": "3401",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m43__T02__idlg__r00.json"
+  ],
+  "started_at_unix": 1786775043.945649,
+  "finished_at_unix": 1786775239.8775947,
+  "elapsed_seconds": 195.93148609995842,
+  "return_code": 0
+}

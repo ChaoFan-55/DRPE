@@ -1,0 +1,28 @@
+{
+  "run_id": "fedavg__m43__T08__dlg__r00",
+  "status": "success",
+  "row": {
+    "run_id": "fedavg__m43__T08__dlg__r00",
+    "method": "fedavg",
+    "model_seed": "43",
+    "target_id": "T08",
+    "sample_index": "34691",
+    "class_id": "8",
+    "class_name": "ship",
+    "attack": "dlg",
+    "restart": "0",
+    "attack_base_seed": "3401",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m43__T08__dlg__r00.json"
+  ],
+  "started_at_unix": 1786864534.8948889,
+  "finished_at_unix": 1786864732.712411,
+  "elapsed_seconds": 197.81615129997954,
+  "return_code": 0
+}

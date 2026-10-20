@@ -1,0 +1,28 @@
+{
+  "run_id": "fedavg__m44__T05__dlg__r00",
+  "status": "success",
+  "row": {
+    "run_id": "fedavg__m44__T05__dlg__r00",
+    "method": "fedavg",
+    "model_seed": "44",
+    "target_id": "T05",
+    "sample_index": "45448",
+    "class_id": "5",
+    "class_name": "dog",
+    "attack": "dlg",
+    "restart": "0",
+    "attack_base_seed": "3401",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m44__T05__dlg__r00.json"
+  ],
+  "started_at_unix": 1786869240.758196,
+  "finished_at_unix": 1786869439.6754527,
+  "elapsed_seconds": 198.91592709999532,
+  "return_code": 0
+}

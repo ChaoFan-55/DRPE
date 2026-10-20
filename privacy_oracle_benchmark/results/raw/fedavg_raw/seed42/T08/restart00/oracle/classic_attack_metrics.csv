@@ -1,0 +1,2 @@
+sample_index,attack_name,observation_mode,true_label,predicted_label,inferred_label,label_source,label_correct,mse,psnr,ssim,lpips,best_iteration,best_objective,best_match_loss,final_objective,final_match_loss,attack_seconds
+34691,dlg,raw,8,8,,oracle_known,1,0.012783387675881386,18.93354040232426,0.6325469017028809,0.003651668783277273,1532,0.046112049371004105,0.04608595371246338,0.056654855608940125,0.056628286838531494,159.28695759997936

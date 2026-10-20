@@ -1,0 +1,21 @@
+{
+  "dataset": "cifar10",
+  "model": "resnet18",
+  "method": "powersgd",
+  "rank": 97,
+  "power_iterations": 1,
+  "powersgd_seed": 2027,
+  "error_feedback": false,
+  "fallback_dense_if_not_smaller": true,
+  "predicted_payload_count": 3364746,
+  "raw_parameter_count": 11173962,
+  "predicted_payload_ratio": 0.30112380908401154,
+  "seed": 43,
+  "partition_seed": 43,
+  "best_round": 200,
+  "best_validation_accuracy": 88.22,
+  "test_accuracy": 87.14,
+  "test_loss": 0.5928964371681213,
+  "cumulative_uplink_mib": 5134.1949462890625,
+  "cumulative_downlink_mib": 17050.112915039062
+}

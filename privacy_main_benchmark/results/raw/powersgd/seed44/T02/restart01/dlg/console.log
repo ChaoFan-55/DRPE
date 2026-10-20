@@ -1,0 +1,92 @@
+Files already downloaded and verified
+================================================================================================================
+PowerSGD PQt decoded-product inversion | attack=DLG | device=cuda
+checkpoint=./outputs/cifar10/resnet18/powersgd/commmatched_seed44/checkpoint_round_0020.pt
+sample=30453 | rank=97 | power_iterations=1 | powersgd_seed=2028 | round=21 | client=0
+iterations=2000 | optimizer=Adam | loss=cosine | attack_lr=0.1 | tv_weight=0.0001
+Target=P_t Q_t^T from intercepted payload; candidate gradient is passed through the same differentiable PowerSGD compressor and decoded as P_c Q_c^T before cosine matching. Raw target gradients are not used during optimization.
+================================================================================================================
+  attack=dlg  obs=pqt_decoded    iter=    1/2000 | match=1.052963e+00 | label=2/2 | 0.095s/iter | ETA=3.2m
+  attack=dlg  obs=pqt_decoded    iter=   25/2000 | match=7.818324e-01 | label=2/2 | 0.091s/iter | ETA=3.0m
+  attack=dlg  obs=pqt_decoded    iter=   50/2000 | match=6.624702e-01 | label=2/2 | 0.099s/iter | ETA=3.2m
+  attack=dlg  obs=pqt_decoded    iter=   75/2000 | match=6.024004e-01 | label=2/2 | 0.103s/iter | ETA=3.3m
+  attack=dlg  obs=pqt_decoded    iter=  100/2000 | match=5.614276e-01 | label=2/2 | 0.106s/iter | ETA=3.4m
+  attack=dlg  obs=pqt_decoded    iter=  125/2000 | match=5.327871e-01 | label=2/2 | 0.108s/iter | ETA=3.4m
+  attack=dlg  obs=pqt_decoded    iter=  150/2000 | match=4.993696e-01 | label=2/2 | 0.109s/iter | ETA=3.4m
+  attack=dlg  obs=pqt_decoded    iter=  175/2000 | match=4.837419e-01 | label=2/2 | 0.110s/iter | ETA=3.3m
+  attack=dlg  obs=pqt_decoded    iter=  200/2000 | match=4.860594e-01 | label=2/2 | 0.110s/iter | ETA=3.3m
+  attack=dlg  obs=pqt_decoded    iter=  225/2000 | match=4.767334e-01 | label=2/2 | 0.111s/iter | ETA=3.3m
+  attack=dlg  obs=pqt_decoded    iter=  250/2000 | match=4.572526e-01 | label=2/2 | 0.112s/iter | ETA=3.3m
+  attack=dlg  obs=pqt_decoded    iter=  275/2000 | match=4.778937e-01 | label=2/2 | 0.111s/iter | ETA=3.2m
+  attack=dlg  obs=pqt_decoded    iter=  300/2000 | match=4.510000e-01 | label=2/2 | 0.112s/iter | ETA=3.2m
+  attack=dlg  obs=pqt_decoded    iter=  325/2000 | match=4.455322e-01 | label=2/2 | 0.112s/iter | ETA=3.1m
+  attack=dlg  obs=pqt_decoded    iter=  350/2000 | match=4.517254e-01 | label=2/2 | 0.112s/iter | ETA=3.1m
+  attack=dlg  obs=pqt_decoded    iter=  375/2000 | match=4.510123e-01 | label=2/2 | 0.112s/iter | ETA=3.0m
+  attack=dlg  obs=pqt_decoded    iter=  400/2000 | match=4.684417e-01 | label=2/2 | 0.113s/iter | ETA=3.0m
+  attack=dlg  obs=pqt_decoded    iter=  425/2000 | match=4.713722e-01 | label=2/2 | 0.112s/iter | ETA=3.0m
+  attack=dlg  obs=pqt_decoded    iter=  450/2000 | match=4.449567e-01 | label=2/2 | 0.112s/iter | ETA=2.9m
+  attack=dlg  obs=pqt_decoded    iter=  475/2000 | match=4.679912e-01 | label=2/2 | 0.113s/iter | ETA=2.9m
+  attack=dlg  obs=pqt_decoded    iter=  500/2000 | match=4.669936e-01 | label=2/2 | 0.113s/iter | ETA=2.8m
+  attack=dlg  obs=pqt_decoded    iter=  525/2000 | match=4.546238e-01 | label=2/2 | 0.113s/iter | ETA=2.8m
+  attack=dlg  obs=pqt_decoded    iter=  550/2000 | match=4.441730e-01 | label=2/2 | 0.113s/iter | ETA=2.7m
+  attack=dlg  obs=pqt_decoded    iter=  575/2000 | match=4.509951e-01 | label=2/2 | 0.113s/iter | ETA=2.7m
+  attack=dlg  obs=pqt_decoded    iter=  600/2000 | match=4.400172e-01 | label=2/2 | 0.113s/iter | ETA=2.6m
+  attack=dlg  obs=pqt_decoded    iter=  625/2000 | match=4.369805e-01 | label=2/2 | 0.113s/iter | ETA=2.6m
+  attack=dlg  obs=pqt_decoded    iter=  650/2000 | match=4.501937e-01 | label=2/2 | 0.113s/iter | ETA=2.5m
+  attack=dlg  obs=pqt_decoded    iter=  675/2000 | match=4.396957e-01 | label=2/2 | 0.113s/iter | ETA=2.5m
+  attack=dlg  obs=pqt_decoded    iter=  700/2000 | match=4.470812e-01 | label=2/2 | 0.113s/iter | ETA=2.4m
+  attack=dlg  obs=pqt_decoded    iter=  725/2000 | match=4.313275e-01 | label=2/2 | 0.113s/iter | ETA=2.4m
+  attack=dlg  obs=pqt_decoded    iter=  750/2000 | match=4.540718e-01 | label=2/2 | 0.113s/iter | ETA=2.3m
+  attack=dlg  obs=pqt_decoded    iter=  775/2000 | match=4.502306e-01 | label=2/2 | 0.113s/iter | ETA=2.3m
+  attack=dlg  obs=pqt_decoded    iter=  800/2000 | match=4.504900e-01 | label=2/2 | 0.113s/iter | ETA=2.3m
+  attack=dlg  obs=pqt_decoded    iter=  825/2000 | match=4.571136e-01 | label=2/2 | 0.113s/iter | ETA=2.2m
+  attack=dlg  obs=pqt_decoded    iter=  850/2000 | match=4.414816e-01 | label=2/2 | 0.113s/iter | ETA=2.2m
+  attack=dlg  obs=pqt_decoded    iter=  875/2000 | match=4.347796e-01 | label=2/2 | 0.113s/iter | ETA=2.1m
+  attack=dlg  obs=pqt_decoded    iter=  900/2000 | match=4.322807e-01 | label=2/2 | 0.113s/iter | ETA=2.1m
+  attack=dlg  obs=pqt_decoded    iter=  925/2000 | match=4.416187e-01 | label=2/2 | 0.113s/iter | ETA=2.0m
+  attack=dlg  obs=pqt_decoded    iter=  950/2000 | match=4.393892e-01 | label=2/2 | 0.112s/iter | ETA=2.0m
+  attack=dlg  obs=pqt_decoded    iter=  975/2000 | match=4.425331e-01 | label=2/2 | 0.112s/iter | ETA=1.9m
+  attack=dlg  obs=pqt_decoded    iter= 1000/2000 | match=4.533069e-01 | label=2/2 | 0.113s/iter | ETA=1.9m
+  attack=dlg  obs=pqt_decoded    iter= 1025/2000 | match=4.487274e-01 | label=2/2 | 0.113s/iter | ETA=1.8m
+  attack=dlg  obs=pqt_decoded    iter= 1050/2000 | match=4.497667e-01 | label=2/2 | 0.113s/iter | ETA=1.8m
+  attack=dlg  obs=pqt_decoded    iter= 1075/2000 | match=4.303057e-01 | label=2/2 | 0.113s/iter | ETA=1.7m
+  attack=dlg  obs=pqt_decoded    iter= 1100/2000 | match=4.362694e-01 | label=2/2 | 0.113s/iter | ETA=1.7m
+  attack=dlg  obs=pqt_decoded    iter= 1125/2000 | match=4.451448e-01 | label=2/2 | 0.113s/iter | ETA=1.7m
+  attack=dlg  obs=pqt_decoded    iter= 1150/2000 | match=4.502487e-01 | label=2/2 | 0.113s/iter | ETA=1.6m
+  attack=dlg  obs=pqt_decoded    iter= 1175/2000 | match=4.535970e-01 | label=2/2 | 0.113s/iter | ETA=1.6m
+  attack=dlg  obs=pqt_decoded    iter= 1200/2000 | match=4.553570e-01 | label=2/2 | 0.113s/iter | ETA=1.5m
+  attack=dlg  obs=pqt_decoded    iter= 1225/2000 | match=4.402063e-01 | label=2/2 | 0.113s/iter | ETA=1.5m
+  attack=dlg  obs=pqt_decoded    iter= 1250/2000 | match=4.437488e-01 | label=2/2 | 0.113s/iter | ETA=1.4m
+  attack=dlg  obs=pqt_decoded    iter= 1275/2000 | match=4.330866e-01 | label=2/2 | 0.113s/iter | ETA=1.4m
+  attack=dlg  obs=pqt_decoded    iter= 1300/2000 | match=4.356794e-01 | label=2/2 | 0.113s/iter | ETA=1.3m
+  attack=dlg  obs=pqt_decoded    iter= 1325/2000 | match=4.558640e-01 | label=2/2 | 0.113s/iter | ETA=1.3m
+  attack=dlg  obs=pqt_decoded    iter= 1350/2000 | match=4.624451e-01 | label=2/2 | 0.113s/iter | ETA=1.2m
+  attack=dlg  obs=pqt_decoded    iter= 1375/2000 | match=4.398373e-01 | label=2/2 | 0.113s/iter | ETA=1.2m
+  attack=dlg  obs=pqt_decoded    iter= 1400/2000 | match=4.356738e-01 | label=2/2 | 0.113s/iter | ETA=1.1m
+  attack=dlg  obs=pqt_decoded    iter= 1425/2000 | match=4.428259e-01 | label=2/2 | 0.113s/iter | ETA=1.1m
+  attack=dlg  obs=pqt_decoded    iter= 1450/2000 | match=4.357798e-01 | label=2/2 | 0.113s/iter | ETA=1.0m
+  attack=dlg  obs=pqt_decoded    iter= 1475/2000 | match=4.572346e-01 | label=2/2 | 0.113s/iter | ETA=1.0m
+  attack=dlg  obs=pqt_decoded    iter= 1500/2000 | match=4.507088e-01 | label=2/2 | 0.113s/iter | ETA=0.9m
+  attack=dlg  obs=pqt_decoded    iter= 1525/2000 | match=4.471530e-01 | label=2/2 | 0.113s/iter | ETA=0.9m
+  attack=dlg  obs=pqt_decoded    iter= 1550/2000 | match=4.356467e-01 | label=2/2 | 0.113s/iter | ETA=0.8m
+  attack=dlg  obs=pqt_decoded    iter= 1575/2000 | match=4.436526e-01 | label=2/2 | 0.113s/iter | ETA=0.8m
+  attack=dlg  obs=pqt_decoded    iter= 1600/2000 | match=4.515121e-01 | label=2/2 | 0.113s/iter | ETA=0.8m
+  attack=dlg  obs=pqt_decoded    iter= 1625/2000 | match=4.560648e-01 | label=2/2 | 0.113s/iter | ETA=0.7m
+  attack=dlg  obs=pqt_decoded    iter= 1650/2000 | match=4.523563e-01 | label=2/2 | 0.113s/iter | ETA=0.7m
+  attack=dlg  obs=pqt_decoded    iter= 1675/2000 | match=4.591222e-01 | label=2/2 | 0.113s/iter | ETA=0.6m
+  attack=dlg  obs=pqt_decoded    iter= 1700/2000 | match=4.410810e-01 | label=2/2 | 0.113s/iter | ETA=0.6m
+  attack=dlg  obs=pqt_decoded    iter= 1725/2000 | match=4.441336e-01 | label=2/2 | 0.113s/iter | ETA=0.5m
+  attack=dlg  obs=pqt_decoded    iter= 1750/2000 | match=4.554324e-01 | label=2/2 | 0.113s/iter | ETA=0.5m
+  attack=dlg  obs=pqt_decoded    iter= 1775/2000 | match=4.330280e-01 | label=2/2 | 0.113s/iter | ETA=0.4m
+  attack=dlg  obs=pqt_decoded    iter= 1800/2000 | match=4.273424e-01 | label=2/2 | 0.113s/iter | ETA=0.4m
+  attack=dlg  obs=pqt_decoded    iter= 1825/2000 | match=4.364071e-01 | label=2/2 | 0.113s/iter | ETA=0.3m
+  attack=dlg  obs=pqt_decoded    iter= 1850/2000 | match=4.646156e-01 | label=2/2 | 0.113s/iter | ETA=0.3m
+  attack=dlg  obs=pqt_decoded    iter= 1875/2000 | match=4.316704e-01 | label=2/2 | 0.113s/iter | ETA=0.2m
+  attack=dlg  obs=pqt_decoded    iter= 1900/2000 | match=4.598508e-01 | label=2/2 | 0.113s/iter | ETA=0.2m
+  attack=dlg  obs=pqt_decoded    iter= 1925/2000 | match=4.438289e-01 | label=2/2 | 0.113s/iter | ETA=0.1m
+  attack=dlg  obs=pqt_decoded    iter= 1950/2000 | match=4.246111e-01 | label=2/2 | 0.113s/iter | ETA=0.1m
+  attack=dlg  obs=pqt_decoded    iter= 1975/2000 | match=4.376130e-01 | label=2/2 | 0.113s/iter | ETA=0.0m
+  attack=dlg  obs=pqt_decoded    iter= 2000/2000 | match=4.603712e-01 | label=2/2 | 0.113s/iter | ETA=0.0m
+----------------------------------------------------------------------------------------------------------------
+sample=30453 attack=DLG  obs=pqt_decoded | PSNR=9.09 | SSIM=0.1449 | label=2/2 | best_match=4.218712e-01 | best_iter=1015 | 225.3s
+Artifacts saved to: ./privacy_main_benchmark/results/raw/powersgd/seed44/T02/restart01/dlg

@@ -1,0 +1,28 @@
+{
+  "run_id": "fedavg__m42__T06__dlg__r01",
+  "status": "success",
+  "row": {
+    "run_id": "fedavg__m42__T06__dlg__r01",
+    "method": "fedavg",
+    "model_seed": "42",
+    "target_id": "T06",
+    "sample_index": "6938",
+    "class_id": "6",
+    "class_name": "frog",
+    "attack": "dlg",
+    "restart": "1",
+    "attack_base_seed": "3402",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m42__T06__dlg__r01.json"
+  ],
+  "started_at_unix": 1786856331.714988,
+  "finished_at_unix": 1786856528.8018239,
+  "elapsed_seconds": 197.08679020009004,
+  "return_code": 0
+}

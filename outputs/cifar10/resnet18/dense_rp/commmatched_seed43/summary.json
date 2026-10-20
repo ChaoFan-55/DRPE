@@ -1,0 +1,22 @@
+{
+  "dataset": "cifar10",
+  "model": "resnet18",
+  "method": "dense_rp",
+  "compression_ratio": 0.3,
+  "block_size": 512,
+  "dynamic_projection": true,
+  "projection_seed": 2027,
+  "projection_family": "dense_row_orthonormal_gaussian",
+  "reconstruction_mode": "projected",
+  "encoded_parameter_count": 3360911,
+  "raw_parameter_count": 11173962,
+  "effective_encoded_ratio": 0.3007806004709878,
+  "seed": 43,
+  "partition_seed": 43,
+  "best_round": 189,
+  "best_validation_accuracy": 86.92,
+  "test_accuracy": 86.13,
+  "test_loss": 0.5322143792629241,
+  "cumulative_uplink_mib": 5128.343200683594,
+  "cumulative_downlink_mib": 17050.112915039062
+}

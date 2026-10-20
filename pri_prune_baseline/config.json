@@ -1,0 +1,13 @@
+{
+  "method_label": "PriPrune-Magnitude (DRPE-protocol reimplementation)",
+  "base_keep_ratio": 0.15,
+  "prune_scope": "matrix_weights",
+  "initial_nonsharing_probability": 0.1,
+  "lambda_accuracy": 5.0,
+  "lambda_privacy": 10.0,
+  "lambda_nonsharing": 0.00002,
+  "mask_learning_rate": 0.001,
+  "gumbel_temperature": 1.0,
+  "mask_seed": 271828,
+  "protocol_version": "pri-prune-drpe-adaptation-v1"
+}

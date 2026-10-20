@@ -1,0 +1,15 @@
+{
+  "total_trainable_parameters": 11173962,
+  "encoded_parameters": 3360911,
+  "actual_model_ratio": 0.3007806004709878,
+  "block_count": 21847,
+  "full_512_block_count": 21815,
+  "dense_rp_explicit_matrix_elements_if_cached": 1720338206,
+  "dense_rp_explicit_matrix_bytes_fp32_if_cached": 6881352824,
+  "dense_rp_explicit_matrix_mib_fp32_if_cached": 6562.569450378418,
+  "dense_rp_explicit_matrix_gib_fp32_if_cached": 6.408759228885174,
+  "drpe_explicit_dense_matrix_bytes_required": 0,
+  "drpe_optional_cached_sign_index_bytes_upper_bound": 71583416,
+  "drpe_optional_cached_sign_index_mib_upper_bound": 68.26726531982422,
+  "note": "DRPE is matrix-free: its actual project implementation regenerates signs/indices from seed/tensor/block/round metadata and does not require storing a dense projection matrix. The cached sign/index figure is only an optional upper bound if all block metadata were cached."
+}

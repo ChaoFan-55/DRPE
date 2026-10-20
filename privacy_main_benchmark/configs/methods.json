@@ -1,0 +1,102 @@
+{
+  "fedavg": {
+    "kind": "classic",
+    "script": "./scripts/run_classic_attack_experiment.py",
+    "checkpoint_template": "./outputs/cifar10/resnet18/fedavg/seed{model_seed}/checkpoint_round_0020.pt",
+    "observation_by_attack": {
+      "dlg": "raw",
+      "idlg": "raw"
+    },
+    "training_summary_template": "./outputs/cifar10/resnet18/fedavg/seed{model_seed}/summary.json"
+  },
+  "random_k": {
+    "kind": "cli",
+    "script": "./random_k_baseline/run_random_k_attack.py",
+    "checkpoint_template": "./outputs/cifar10/resnet18/random_k/commmatched_seed{model_seed}/checkpoint_round_0020.pt",
+    "method_seed": {
+      "42": 2026,
+      "43": 2027,
+      "44": 2028
+    },
+    "extra": {
+      "keep_ratio": 0.15,
+      "unbiased": true
+    }
+  },
+  "top_k": {
+    "kind": "cli",
+    "script": "./top_k_baseline/run_top_k_attack.py",
+    "checkpoint_template": "./outputs/cifar10/resnet18/top_k/commmatched_seed{model_seed}/checkpoint_round_0020.pt",
+    "extra": {
+      "keep_ratio": 0.15
+    }
+  },
+  "dense_rp": {
+    "kind": "cli",
+    "script": "./dense_rp_baseline/run_dense_rp_attack.py",
+    "checkpoint_template": "./outputs/cifar10/resnet18/dense_rp/commmatched_seed{model_seed}/checkpoint_round_0020.pt",
+    "method_seed": {
+      "42": 2026,
+      "43": 2027,
+      "44": 2028
+    },
+    "extra": {
+      "compression_ratio": 0.3,
+      "block_size": 512,
+      "projection_batch_blocks": 4096
+    }
+  },
+  "powersgd": {
+    "kind": "cli",
+    "script": "./powersgd_baseline/run_powersgd_attack_pqt_decoded.py",
+    "checkpoint_template": "./outputs/cifar10/resnet18/powersgd/commmatched_seed{model_seed}/checkpoint_round_0020.pt",
+    "method_seed": {
+      "42": 2026,
+      "43": 2027,
+      "44": 2028
+    },
+    "extra": {
+      "rank": 97,
+      "power_iterations": 1,
+      "observation": "pqt_decoded_product"
+    }
+  },
+  "flocora": {
+    "kind": "cli",
+    "script": "./flocora_baseline/run_flocora_attack.py",
+    "checkpoint_template": "./outputs/cifar10/resnet18/flocora/commmatched_seed{model_seed}/checkpoint_round_0020.pt",
+    "extra": {
+      "observation": "factor",
+      "rank": 93,
+      "lora_alpha": 1488.0,
+      "virtual_local_lr": 0.01
+    }
+  },
+  "drpe": {
+    "kind": "classic",
+    "script": "./scripts/run_classic_attack_experiment.py",
+    "checkpoint_template": "./outputs/cifar10/resnet18/drpe/seed{model_seed}/checkpoint_round_0020.pt",
+    "training_summary_template": "./outputs/cifar10/resnet18/drpe/seed{model_seed}/summary.json",
+    "observation_by_attack": {
+      "dlg": "encoded",
+      "idlg": "decoded"
+    },
+    "projection_seed": {
+      "42": 2026,
+      "43": 2027,
+      "44": 2028
+    },
+    "noise_seed": {
+      "42": 314159,
+      "43": 314160,
+      "44": 314161
+    },
+    "calibration_path": "./configs/cifar10/resnet18/calibration/p75_precomputed.json",
+    "extra": {
+      "compression_ratio": 0.3,
+      "block_size": 512,
+      "dynamic_projection": true,
+      "noise_eta": 2.0
+    }
+  }
+}

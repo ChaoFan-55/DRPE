@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar10",
+  "model": "resnet18",
+  "method": "random_k",
+  "seed": 42,
+  "partition_seed": 42,
+  "random_k_seed": 2026,
+  "compression_ratio": 0.15,
+  "unbiased": true,
+  "best_round": 195,
+  "best_validation_accuracy": 87.18,
+  "test_accuracy": 86.28,
+  "test_loss": 0.6528672681808472,
+  "cumulative_uplink_mib": 5115.0360107421875,
+  "cumulative_downlink_mib": 17050.112915039062
+}

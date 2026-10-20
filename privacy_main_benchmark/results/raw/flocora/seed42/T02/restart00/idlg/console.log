@@ -1,0 +1,94 @@
+Files already downloaded and verified
+iDLG inferred label=2, true=2, source=head.bias:argmin_bias
+======================================================================================================================
+FLoCoRA gradient inversion | attack=IDLG | obs=factor_grad | device=cuda
+checkpoint=./outputs/cifar10/resnet18/flocora/commmatched_seed42/checkpoint_round_0020.pt
+sample=30453 | rank=93 | lora_alpha=1488 | scaling=16.000 | round=21
+iterations=2000 | optimizer=Adam | cosine_schedule=True | attack_lr=0.1 | tv_weight=0.0001
+Target directly matches gradients of the trainable FLoCoRA factors, GroupNorm, and final FC. Raw target image/data are not used by the optimizer.
+Protocol note: this is a single-example gradient-level simulated upload, not a replay of the historical 5-local-epoch client parameter state.
+======================================================================================================================
+  attack=idlg obs=factor_grad      iter=    1/2000 | match=7.813365e-01 | label=2/2 | 0.163s/iter | ETA=5.4m
+  attack=idlg obs=factor_grad      iter=   25/2000 | match=4.390892e-01 | label=2/2 | 0.136s/iter | ETA=4.5m
+  attack=idlg obs=factor_grad      iter=   50/2000 | match=3.584530e-01 | label=2/2 | 0.138s/iter | ETA=4.5m
+  attack=idlg obs=factor_grad      iter=   75/2000 | match=3.182386e-01 | label=2/2 | 0.137s/iter | ETA=4.4m
+  attack=idlg obs=factor_grad      iter=  100/2000 | match=3.029900e-01 | label=2/2 | 0.136s/iter | ETA=4.3m
+  attack=idlg obs=factor_grad      iter=  125/2000 | match=2.846084e-01 | label=2/2 | 0.137s/iter | ETA=4.3m
+  attack=idlg obs=factor_grad      iter=  150/2000 | match=2.517253e-01 | label=2/2 | 0.138s/iter | ETA=4.3m
+  attack=idlg obs=factor_grad      iter=  175/2000 | match=2.190925e-01 | label=2/2 | 0.138s/iter | ETA=4.2m
+  attack=idlg obs=factor_grad      iter=  200/2000 | match=1.992064e-01 | label=2/2 | 0.139s/iter | ETA=4.2m
+  attack=idlg obs=factor_grad      iter=  225/2000 | match=1.788448e-01 | label=2/2 | 0.139s/iter | ETA=4.1m
+  attack=idlg obs=factor_grad      iter=  250/2000 | match=1.605656e-01 | label=2/2 | 0.138s/iter | ETA=4.0m
+  attack=idlg obs=factor_grad      iter=  275/2000 | match=1.475093e-01 | label=2/2 | 0.138s/iter | ETA=4.0m
+  attack=idlg obs=factor_grad      iter=  300/2000 | match=1.382755e-01 | label=2/2 | 0.138s/iter | ETA=3.9m
+  attack=idlg obs=factor_grad      iter=  325/2000 | match=1.364281e-01 | label=2/2 | 0.139s/iter | ETA=3.9m
+  attack=idlg obs=factor_grad      iter=  350/2000 | match=1.242840e-01 | label=2/2 | 0.139s/iter | ETA=3.8m
+  attack=idlg obs=factor_grad      iter=  375/2000 | match=1.245087e-01 | label=2/2 | 0.139s/iter | ETA=3.8m
+  attack=idlg obs=factor_grad      iter=  400/2000 | match=1.256529e-01 | label=2/2 | 0.139s/iter | ETA=3.7m
+  attack=idlg obs=factor_grad      iter=  425/2000 | match=1.177008e-01 | label=2/2 | 0.139s/iter | ETA=3.7m
+  attack=idlg obs=factor_grad      iter=  450/2000 | match=1.160790e-01 | label=2/2 | 0.139s/iter | ETA=3.6m
+  attack=idlg obs=factor_grad      iter=  475/2000 | match=1.075797e-01 | label=2/2 | 0.139s/iter | ETA=3.5m
+  attack=idlg obs=factor_grad      iter=  500/2000 | match=9.772545e-02 | label=2/2 | 0.139s/iter | ETA=3.5m
+  attack=idlg obs=factor_grad      iter=  525/2000 | match=1.095878e-01 | label=2/2 | 0.139s/iter | ETA=3.4m
+  attack=idlg obs=factor_grad      iter=  550/2000 | match=1.099228e-01 | label=2/2 | 0.139s/iter | ETA=3.4m
+  attack=idlg obs=factor_grad      iter=  575/2000 | match=1.120705e-01 | label=2/2 | 0.139s/iter | ETA=3.3m
+  attack=idlg obs=factor_grad      iter=  600/2000 | match=1.084323e-01 | label=2/2 | 0.139s/iter | ETA=3.2m
+  attack=idlg obs=factor_grad      iter=  625/2000 | match=1.044599e-01 | label=2/2 | 0.139s/iter | ETA=3.2m
+  attack=idlg obs=factor_grad      iter=  650/2000 | match=9.903824e-02 | label=2/2 | 0.139s/iter | ETA=3.1m
+  attack=idlg obs=factor_grad      iter=  675/2000 | match=1.165174e-01 | label=2/2 | 0.139s/iter | ETA=3.1m
+  attack=idlg obs=factor_grad      iter=  700/2000 | match=1.150798e-01 | label=2/2 | 0.140s/iter | ETA=3.0m
+  attack=idlg obs=factor_grad      iter=  725/2000 | match=1.024063e-01 | label=2/2 | 0.139s/iter | ETA=3.0m
+  attack=idlg obs=factor_grad      iter=  750/2000 | match=1.002887e-01 | label=2/2 | 0.139s/iter | ETA=2.9m
+  attack=idlg obs=factor_grad      iter=  775/2000 | match=1.017731e-01 | label=2/2 | 0.139s/iter | ETA=2.8m
+  attack=idlg obs=factor_grad      iter=  800/2000 | match=9.399790e-02 | label=2/2 | 0.139s/iter | ETA=2.8m
+  attack=idlg obs=factor_grad      iter=  825/2000 | match=9.626442e-02 | label=2/2 | 0.140s/iter | ETA=2.7m
+  attack=idlg obs=factor_grad      iter=  850/2000 | match=9.601212e-02 | label=2/2 | 0.140s/iter | ETA=2.7m
+  attack=idlg obs=factor_grad      iter=  875/2000 | match=9.843254e-02 | label=2/2 | 0.140s/iter | ETA=2.6m
+  attack=idlg obs=factor_grad      iter=  900/2000 | match=8.955246e-02 | label=2/2 | 0.140s/iter | ETA=2.6m
+  attack=idlg obs=factor_grad      iter=  925/2000 | match=8.448255e-02 | label=2/2 | 0.140s/iter | ETA=2.5m
+  attack=idlg obs=factor_grad      iter=  950/2000 | match=8.322614e-02 | label=2/2 | 0.140s/iter | ETA=2.4m
+  attack=idlg obs=factor_grad      iter=  975/2000 | match=7.929921e-02 | label=2/2 | 0.140s/iter | ETA=2.4m
+  attack=idlg obs=factor_grad      iter= 1000/2000 | match=7.815403e-02 | label=2/2 | 0.140s/iter | ETA=2.3m
+  attack=idlg obs=factor_grad      iter= 1025/2000 | match=6.984645e-02 | label=2/2 | 0.140s/iter | ETA=2.3m
+  attack=idlg obs=factor_grad      iter= 1050/2000 | match=8.311856e-02 | label=2/2 | 0.140s/iter | ETA=2.2m
+  attack=idlg obs=factor_grad      iter= 1075/2000 | match=7.212543e-02 | label=2/2 | 0.140s/iter | ETA=2.2m
+  attack=idlg obs=factor_grad      iter= 1100/2000 | match=9.345686e-02 | label=2/2 | 0.140s/iter | ETA=2.1m
+  attack=idlg obs=factor_grad      iter= 1125/2000 | match=9.258318e-02 | label=2/2 | 0.140s/iter | ETA=2.0m
+  attack=idlg obs=factor_grad      iter= 1150/2000 | match=7.482326e-02 | label=2/2 | 0.140s/iter | ETA=2.0m
+  attack=idlg obs=factor_grad      iter= 1175/2000 | match=7.374918e-02 | label=2/2 | 0.140s/iter | ETA=1.9m
+  attack=idlg obs=factor_grad      iter= 1200/2000 | match=6.253707e-02 | label=2/2 | 0.140s/iter | ETA=1.9m
+  attack=idlg obs=factor_grad      iter= 1225/2000 | match=6.855977e-02 | label=2/2 | 0.140s/iter | ETA=1.8m
+  attack=idlg obs=factor_grad      iter= 1250/2000 | match=6.910759e-02 | label=2/2 | 0.140s/iter | ETA=1.7m
+  attack=idlg obs=factor_grad      iter= 1275/2000 | match=6.844693e-02 | label=2/2 | 0.140s/iter | ETA=1.7m
+  attack=idlg obs=factor_grad      iter= 1300/2000 | match=6.305307e-02 | label=2/2 | 0.140s/iter | ETA=1.6m
+  attack=idlg obs=factor_grad      iter= 1325/2000 | match=6.409895e-02 | label=2/2 | 0.140s/iter | ETA=1.6m
+  attack=idlg obs=factor_grad      iter= 1350/2000 | match=5.582803e-02 | label=2/2 | 0.140s/iter | ETA=1.5m
+  attack=idlg obs=factor_grad      iter= 1375/2000 | match=6.912929e-02 | label=2/2 | 0.140s/iter | ETA=1.5m
+  attack=idlg obs=factor_grad      iter= 1400/2000 | match=5.568761e-02 | label=2/2 | 0.140s/iter | ETA=1.4m
+  attack=idlg obs=factor_grad      iter= 1425/2000 | match=5.542874e-02 | label=2/2 | 0.140s/iter | ETA=1.3m
+  attack=idlg obs=factor_grad      iter= 1450/2000 | match=6.067443e-02 | label=2/2 | 0.140s/iter | ETA=1.3m
+  attack=idlg obs=factor_grad      iter= 1475/2000 | match=5.221462e-02 | label=2/2 | 0.140s/iter | ETA=1.2m
+  attack=idlg obs=factor_grad      iter= 1500/2000 | match=7.048297e-02 | label=2/2 | 0.140s/iter | ETA=1.2m
+  attack=idlg obs=factor_grad      iter= 1525/2000 | match=7.061046e-02 | label=2/2 | 0.140s/iter | ETA=1.1m
+  attack=idlg obs=factor_grad      iter= 1550/2000 | match=7.018554e-02 | label=2/2 | 0.140s/iter | ETA=1.0m
+  attack=idlg obs=factor_grad      iter= 1575/2000 | match=6.820059e-02 | label=2/2 | 0.140s/iter | ETA=1.0m
+  attack=idlg obs=factor_grad      iter= 1600/2000 | match=6.589901e-02 | label=2/2 | 0.140s/iter | ETA=0.9m
+  attack=idlg obs=factor_grad      iter= 1625/2000 | match=6.578356e-02 | label=2/2 | 0.140s/iter | ETA=0.9m
+  attack=idlg obs=factor_grad      iter= 1650/2000 | match=6.099123e-02 | label=2/2 | 0.140s/iter | ETA=0.8m
+  attack=idlg obs=factor_grad      iter= 1675/2000 | match=6.037378e-02 | label=2/2 | 0.140s/iter | ETA=0.8m
+  attack=idlg obs=factor_grad      iter= 1700/2000 | match=5.792880e-02 | label=2/2 | 0.140s/iter | ETA=0.7m
+  attack=idlg obs=factor_grad      iter= 1725/2000 | match=5.623049e-02 | label=2/2 | 0.140s/iter | ETA=0.6m
+  attack=idlg obs=factor_grad      iter= 1750/2000 | match=5.729294e-02 | label=2/2 | 0.140s/iter | ETA=0.6m
+  attack=idlg obs=factor_grad      iter= 1775/2000 | match=5.694431e-02 | label=2/2 | 0.140s/iter | ETA=0.5m
+  attack=idlg obs=factor_grad      iter= 1800/2000 | match=5.639422e-02 | label=2/2 | 0.140s/iter | ETA=0.5m
+  attack=idlg obs=factor_grad      iter= 1825/2000 | match=5.775446e-02 | label=2/2 | 0.140s/iter | ETA=0.4m
+  attack=idlg obs=factor_grad      iter= 1850/2000 | match=5.858368e-02 | label=2/2 | 0.140s/iter | ETA=0.4m
+  attack=idlg obs=factor_grad      iter= 1875/2000 | match=5.794424e-02 | label=2/2 | 0.140s/iter | ETA=0.3m
+  attack=idlg obs=factor_grad      iter= 1900/2000 | match=5.711281e-02 | label=2/2 | 0.140s/iter | ETA=0.2m
+  attack=idlg obs=factor_grad      iter= 1925/2000 | match=5.794376e-02 | label=2/2 | 0.140s/iter | ETA=0.2m
+  attack=idlg obs=factor_grad      iter= 1950/2000 | match=5.800998e-02 | label=2/2 | 0.140s/iter | ETA=0.1m
+  attack=idlg obs=factor_grad      iter= 1975/2000 | match=5.745232e-02 | label=2/2 | 0.140s/iter | ETA=0.1m
+  attack=idlg obs=factor_grad      iter= 2000/2000 | match=5.787402e-02 | label=2/2 | 0.140s/iter | ETA=0.0m
+----------------------------------------------------------------------------------------------------------------------
+sample=30453 attack=IDLG obs=factor_grad | PSNR=15.97 | SSIM=0.5372 | label=2/2 | best_match=5.130273e-02 | best_iter=1473 | 280.0s
+Artifacts saved to: ./privacy_main_benchmark/results/raw/flocora/seed42/T02/restart00/idlg

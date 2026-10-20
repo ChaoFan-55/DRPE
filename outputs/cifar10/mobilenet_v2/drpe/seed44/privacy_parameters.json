@@ -1,0 +1,8 @@
+{
+  "privacy_enabled": true,
+  "clip_norm": 3.6345938260312716,
+  "noise_eta": 2.0,
+  "noise_std": 0.008862701619328566,
+  "encoded_parameter_count": 672728,
+  "calibration_path": "./outputs/cifar10/mobilenet_v2/calibration/calibration.json"
+}

@@ -1,0 +1,7 @@
+{
+  "training": "Identical original global validation/test data, common model, seeds and optimizer schedule.",
+  "communication": "Actual values+int32 indices+counts; native adaptive defense; no forced 30% label.",
+  "attack": "Identical target list, round20 stage, seeds and 2000-step optimizer; full local-model oracle for PriPrune.",
+  "limitation": "Protocol-adapted independent mechanism implementation, not author code or native SGI reproduction. Different learned model states remain a confounder.",
+  "statistical_unit": "10 unique targets repeated across 3 model seeds and 2 attack initializations; no significance tests treating 60 runs as independent targets."
+}

@@ -1,0 +1,13 @@
+# Selected packages from the experiment environment on 2026-10-20.
+# Python 3.10.20. Historical per-run environment records remain authoritative.
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch==1.13.1+cu116
+torchvision==0.14.1+cu116
+numpy==1.26.4
+Pillow==12.1.1
+matplotlib==3.9.3
+pandas==1.5.3
+lpips==0.1.4
+scipy==1.15.3
+scikit-image==0.25.2
+pytest==9.1.1

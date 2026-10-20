@@ -1,0 +1,28 @@
+{
+  "run_id": "drpe__m42__T04__dlg__r00",
+  "status": "success",
+  "row": {
+    "run_id": "drpe__m42__T04__dlg__r00",
+    "method": "drpe",
+    "model_seed": "42",
+    "target_id": "T04",
+    "sample_index": "16505",
+    "class_id": "4",
+    "class_name": "deer",
+    "attack": "dlg",
+    "restart": "0",
+    "attack_base_seed": "3401",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/drpe/drpe__m42__T04__dlg__r00.json"
+  ],
+  "started_at_unix": 1787017691.8012192,
+  "finished_at_unix": 1787018655.9473615,
+  "elapsed_seconds": 964.1451448999578,
+  "return_code": 0
+}

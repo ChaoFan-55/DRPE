@@ -1,0 +1,17 @@
+{
+  "method": "random_k",
+  "compression_ratio": 0.15,
+  "unbiased": true,
+  "random_k_seed": 2026,
+  "sampling": "without_replacement",
+  "sampling_scope": "independent_per_round_client_tensor",
+  "value_dtype": "float32",
+  "index_dtype": "int32",
+  "index_bytes_counted": true,
+  "error_feedback": false,
+  "privacy_noise": false,
+  "clipping": false,
+  "server_model_device_during_training": "cpu",
+  "client_model_device": "cuda",
+  "expected_communication_ratio": 0.3
+}

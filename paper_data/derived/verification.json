@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "45_complete_200_round_training_runs": true,
+    "960_main_attack_runs": true,
+    "180_known_label_runs": true,
+    "180_no_noise_attack_runs": true,
+    "960_figure_snapshot_rows_match_original_metrics": true,
+    "33_main_training_snapshot_rows_match_original_metrics": true,
+    "360_extra_figure_snapshot_rows_match_original_metrics": true
+  },
+  "all_passed": true,
+  "notes": "Statistics reproduce archived runs; no training or new attack experiments were performed. Sample SD uses n-1. Repeated runs are not independent targets."
+}

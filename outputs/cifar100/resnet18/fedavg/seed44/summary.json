@@ -1,0 +1,12 @@
+{
+  "dataset": "cifar100",
+  "model": "resnet18",
+  "method": "fedavg",
+  "seed": 44,
+  "best_round": 181.0,
+  "best_validation_accuracy": 60.82,
+  "test_accuracy": 60.62,
+  "test_loss": 1.9849602745056152,
+  "cumulative_uplink_mib": 17120.562744140625,
+  "cumulative_downlink_mib": 17120.562744140625
+}

@@ -1,0 +1,10 @@
+{
+  "raw_dense_parameters": 11173962,
+  "total_parameters_with_adapters": 14503641,
+  "trainable_parameters": 3344409,
+  "adapter_parameters": 3329679,
+  "norm_parameters": 9600,
+  "head_parameters": 5130,
+  "trainable_ratio_vs_dense": 0.29930377425661553,
+  "conv_layers_adapted": 20
+}

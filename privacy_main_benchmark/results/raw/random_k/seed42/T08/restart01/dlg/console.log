@@ -1,0 +1,91 @@
+Files already downloaded and verified
+====================================================================================================
+Random-k gradient inversion | attack=DLG | device=cuda
+checkpoint=./outputs/cifar10/resnet18/random_k/commmatched_seed42/checkpoint_round_0020.pt
+sample=34691 | keep_ratio=0.15 | unbiased=True | random_k_seed=2026 | round=21 | client=0
+iterations=2000 | optimizer=Adam | loss=cosine | attack_lr=0.1 | tv_weight=0.0001
+====================================================================================================
+  attack=dlg  obs=random_k iter=    1/2000 | match=1.017889e+00 | label=8/8 | 0.128s/iter | ETA=4.3m
+  attack=dlg  obs=random_k iter=   25/2000 | match=7.312022e-01 | label=8/8 | 0.115s/iter | ETA=3.8m
+  attack=dlg  obs=random_k iter=   50/2000 | match=7.013105e-01 | label=8/8 | 0.117s/iter | ETA=3.8m
+  attack=dlg  obs=random_k iter=   75/2000 | match=6.577595e-01 | label=8/8 | 0.118s/iter | ETA=3.8m
+  attack=dlg  obs=random_k iter=  100/2000 | match=6.420023e-01 | label=8/8 | 0.119s/iter | ETA=3.8m
+  attack=dlg  obs=random_k iter=  125/2000 | match=6.451263e-01 | label=8/8 | 0.119s/iter | ETA=3.7m
+  attack=dlg  obs=random_k iter=  150/2000 | match=6.444472e-01 | label=8/8 | 0.119s/iter | ETA=3.7m
+  attack=dlg  obs=random_k iter=  175/2000 | match=6.402712e-01 | label=8/8 | 0.118s/iter | ETA=3.6m
+  attack=dlg  obs=random_k iter=  200/2000 | match=6.385928e-01 | label=8/8 | 0.118s/iter | ETA=3.5m
+  attack=dlg  obs=random_k iter=  225/2000 | match=6.432445e-01 | label=8/8 | 0.118s/iter | ETA=3.5m
+  attack=dlg  obs=random_k iter=  250/2000 | match=6.304219e-01 | label=8/8 | 0.118s/iter | ETA=3.4m
+  attack=dlg  obs=random_k iter=  275/2000 | match=6.226047e-01 | label=8/8 | 0.119s/iter | ETA=3.4m
+  attack=dlg  obs=random_k iter=  300/2000 | match=6.252300e-01 | label=8/8 | 0.119s/iter | ETA=3.4m
+  attack=dlg  obs=random_k iter=  325/2000 | match=6.319684e-01 | label=8/8 | 0.118s/iter | ETA=3.3m
+  attack=dlg  obs=random_k iter=  350/2000 | match=6.068142e-01 | label=8/8 | 0.118s/iter | ETA=3.3m
+  attack=dlg  obs=random_k iter=  375/2000 | match=6.300184e-01 | label=8/8 | 0.118s/iter | ETA=3.2m
+  attack=dlg  obs=random_k iter=  400/2000 | match=6.158884e-01 | label=8/8 | 0.118s/iter | ETA=3.2m
+  attack=dlg  obs=random_k iter=  425/2000 | match=6.137094e-01 | label=8/8 | 0.119s/iter | ETA=3.1m
+  attack=dlg  obs=random_k iter=  450/2000 | match=6.307299e-01 | label=8/8 | 0.119s/iter | ETA=3.1m
+  attack=dlg  obs=random_k iter=  475/2000 | match=6.255426e-01 | label=8/8 | 0.120s/iter | ETA=3.0m
+  attack=dlg  obs=random_k iter=  500/2000 | match=6.299631e-01 | label=8/8 | 0.120s/iter | ETA=3.0m
+  attack=dlg  obs=random_k iter=  525/2000 | match=6.190479e-01 | label=8/8 | 0.119s/iter | ETA=2.9m
+  attack=dlg  obs=random_k iter=  550/2000 | match=6.442627e-01 | label=8/8 | 0.119s/iter | ETA=2.9m
+  attack=dlg  obs=random_k iter=  575/2000 | match=6.063880e-01 | label=8/8 | 0.119s/iter | ETA=2.8m
+  attack=dlg  obs=random_k iter=  600/2000 | match=6.231383e-01 | label=8/8 | 0.119s/iter | ETA=2.8m
+  attack=dlg  obs=random_k iter=  625/2000 | match=6.268020e-01 | label=8/8 | 0.119s/iter | ETA=2.7m
+  attack=dlg  obs=random_k iter=  650/2000 | match=6.222670e-01 | label=8/8 | 0.119s/iter | ETA=2.7m
+  attack=dlg  obs=random_k iter=  675/2000 | match=6.641777e-01 | label=8/8 | 0.119s/iter | ETA=2.6m
+  attack=dlg  obs=random_k iter=  700/2000 | match=6.029648e-01 | label=8/8 | 0.119s/iter | ETA=2.6m
+  attack=dlg  obs=random_k iter=  725/2000 | match=6.080981e-01 | label=8/8 | 0.119s/iter | ETA=2.5m
+  attack=dlg  obs=random_k iter=  750/2000 | match=6.158533e-01 | label=8/8 | 0.119s/iter | ETA=2.5m
+  attack=dlg  obs=random_k iter=  775/2000 | match=6.144918e-01 | label=8/8 | 0.119s/iter | ETA=2.4m
+  attack=dlg  obs=random_k iter=  800/2000 | match=6.110468e-01 | label=8/8 | 0.119s/iter | ETA=2.4m
+  attack=dlg  obs=random_k iter=  825/2000 | match=6.068205e-01 | label=8/8 | 0.119s/iter | ETA=2.3m
+  attack=dlg  obs=random_k iter=  850/2000 | match=6.131621e-01 | label=8/8 | 0.119s/iter | ETA=2.3m
+  attack=dlg  obs=random_k iter=  875/2000 | match=6.142304e-01 | label=8/8 | 0.120s/iter | ETA=2.2m
+  attack=dlg  obs=random_k iter=  900/2000 | match=6.131259e-01 | label=8/8 | 0.120s/iter | ETA=2.2m
+  attack=dlg  obs=random_k iter=  925/2000 | match=6.326401e-01 | label=8/8 | 0.120s/iter | ETA=2.1m
+  attack=dlg  obs=random_k iter=  950/2000 | match=6.369820e-01 | label=8/8 | 0.120s/iter | ETA=2.1m
+  attack=dlg  obs=random_k iter=  975/2000 | match=6.120496e-01 | label=8/8 | 0.120s/iter | ETA=2.0m
+  attack=dlg  obs=random_k iter= 1000/2000 | match=6.041981e-01 | label=8/8 | 0.120s/iter | ETA=2.0m
+  attack=dlg  obs=random_k iter= 1025/2000 | match=6.212647e-01 | label=8/8 | 0.120s/iter | ETA=1.9m
+  attack=dlg  obs=random_k iter= 1050/2000 | match=6.232772e-01 | label=8/8 | 0.120s/iter | ETA=1.9m
+  attack=dlg  obs=random_k iter= 1075/2000 | match=6.171358e-01 | label=8/8 | 0.120s/iter | ETA=1.8m
+  attack=dlg  obs=random_k iter= 1100/2000 | match=6.098806e-01 | label=8/8 | 0.120s/iter | ETA=1.8m
+  attack=dlg  obs=random_k iter= 1125/2000 | match=6.095139e-01 | label=8/8 | 0.120s/iter | ETA=1.7m
+  attack=dlg  obs=random_k iter= 1150/2000 | match=6.032601e-01 | label=8/8 | 0.120s/iter | ETA=1.7m
+  attack=dlg  obs=random_k iter= 1175/2000 | match=6.077104e-01 | label=8/8 | 0.119s/iter | ETA=1.6m
+  attack=dlg  obs=random_k iter= 1200/2000 | match=6.252360e-01 | label=8/8 | 0.120s/iter | ETA=1.6m
+  attack=dlg  obs=random_k iter= 1225/2000 | match=6.227891e-01 | label=8/8 | 0.120s/iter | ETA=1.5m
+  attack=dlg  obs=random_k iter= 1250/2000 | match=6.204623e-01 | label=8/8 | 0.120s/iter | ETA=1.5m
+  attack=dlg  obs=random_k iter= 1275/2000 | match=6.325644e-01 | label=8/8 | 0.120s/iter | ETA=1.4m
+  attack=dlg  obs=random_k iter= 1300/2000 | match=6.205993e-01 | label=8/8 | 0.120s/iter | ETA=1.4m
+  attack=dlg  obs=random_k iter= 1325/2000 | match=6.212542e-01 | label=8/8 | 0.120s/iter | ETA=1.3m
+  attack=dlg  obs=random_k iter= 1350/2000 | match=6.122866e-01 | label=8/8 | 0.120s/iter | ETA=1.3m
+  attack=dlg  obs=random_k iter= 1375/2000 | match=6.607125e-01 | label=8/8 | 0.120s/iter | ETA=1.2m
+  attack=dlg  obs=random_k iter= 1400/2000 | match=6.347945e-01 | label=8/8 | 0.120s/iter | ETA=1.2m
+  attack=dlg  obs=random_k iter= 1425/2000 | match=6.116142e-01 | label=8/8 | 0.120s/iter | ETA=1.1m
+  attack=dlg  obs=random_k iter= 1450/2000 | match=6.165206e-01 | label=8/8 | 0.120s/iter | ETA=1.1m
+  attack=dlg  obs=random_k iter= 1475/2000 | match=6.342698e-01 | label=8/8 | 0.120s/iter | ETA=1.0m
+  attack=dlg  obs=random_k iter= 1500/2000 | match=6.129092e-01 | label=8/8 | 0.120s/iter | ETA=1.0m
+  attack=dlg  obs=random_k iter= 1525/2000 | match=5.949039e-01 | label=8/8 | 0.120s/iter | ETA=0.9m
+  attack=dlg  obs=random_k iter= 1550/2000 | match=6.271693e-01 | label=8/8 | 0.120s/iter | ETA=0.9m
+  attack=dlg  obs=random_k iter= 1575/2000 | match=6.186434e-01 | label=8/8 | 0.120s/iter | ETA=0.8m
+  attack=dlg  obs=random_k iter= 1600/2000 | match=6.207547e-01 | label=8/8 | 0.120s/iter | ETA=0.8m
+  attack=dlg  obs=random_k iter= 1625/2000 | match=6.156487e-01 | label=8/8 | 0.120s/iter | ETA=0.7m
+  attack=dlg  obs=random_k iter= 1650/2000 | match=6.036187e-01 | label=8/8 | 0.120s/iter | ETA=0.7m
+  attack=dlg  obs=random_k iter= 1675/2000 | match=6.159046e-01 | label=8/8 | 0.120s/iter | ETA=0.6m
+  attack=dlg  obs=random_k iter= 1700/2000 | match=6.106066e-01 | label=8/8 | 0.120s/iter | ETA=0.6m
+  attack=dlg  obs=random_k iter= 1725/2000 | match=5.961805e-01 | label=8/8 | 0.120s/iter | ETA=0.5m
+  attack=dlg  obs=random_k iter= 1750/2000 | match=5.965868e-01 | label=8/8 | 0.120s/iter | ETA=0.5m
+  attack=dlg  obs=random_k iter= 1775/2000 | match=6.168221e-01 | label=8/8 | 0.120s/iter | ETA=0.4m
+  attack=dlg  obs=random_k iter= 1800/2000 | match=6.260604e-01 | label=8/8 | 0.120s/iter | ETA=0.4m
+  attack=dlg  obs=random_k iter= 1825/2000 | match=6.000941e-01 | label=8/8 | 0.120s/iter | ETA=0.3m
+  attack=dlg  obs=random_k iter= 1850/2000 | match=5.979344e-01 | label=8/8 | 0.120s/iter | ETA=0.3m
+  attack=dlg  obs=random_k iter= 1875/2000 | match=5.875845e-01 | label=8/8 | 0.120s/iter | ETA=0.2m
+  attack=dlg  obs=random_k iter= 1900/2000 | match=6.054080e-01 | label=8/8 | 0.120s/iter | ETA=0.2m
+  attack=dlg  obs=random_k iter= 1925/2000 | match=6.222892e-01 | label=8/8 | 0.120s/iter | ETA=0.1m
+  attack=dlg  obs=random_k iter= 1950/2000 | match=6.420081e-01 | label=8/8 | 0.120s/iter | ETA=0.1m
+  attack=dlg  obs=random_k iter= 1975/2000 | match=6.138470e-01 | label=8/8 | 0.120s/iter | ETA=0.0m
+  attack=dlg  obs=random_k iter= 2000/2000 | match=5.986576e-01 | label=8/8 | 0.120s/iter | ETA=0.0m
+----------------------------------------------------------------------------------------------------
+sample=34691 attack=DLG  obs=random_k | PSNR=8.85 | SSIM=0.1201 | label=8/8 | best_iter=1875 | 239.4s
+Artifacts saved to: ./privacy_main_benchmark/results/raw/random_k/seed42/T08/restart01/dlg

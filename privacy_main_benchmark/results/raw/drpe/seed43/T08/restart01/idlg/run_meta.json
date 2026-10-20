@@ -1,0 +1,28 @@
+{
+  "run_id": "drpe__m43__T08__idlg__r01",
+  "status": "success",
+  "row": {
+    "run_id": "drpe__m43__T08__idlg__r01",
+    "method": "drpe",
+    "model_seed": "43",
+    "target_id": "T08",
+    "sample_index": "34691",
+    "class_id": "8",
+    "class_name": "ship",
+    "attack": "idlg",
+    "restart": "1",
+    "attack_base_seed": "3402",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/drpe/drpe__m43__T08__idlg__r01.json"
+  ],
+  "started_at_unix": 1787083853.629035,
+  "finished_at_unix": 1787085400.1525712,
+  "elapsed_seconds": 1546.5227702000411,
+  "return_code": 0
+}

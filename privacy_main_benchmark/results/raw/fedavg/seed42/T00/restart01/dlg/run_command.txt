@@ -1,0 +1,1 @@
+python ./scripts/run_classic_attack_experiment.py --config ./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m42__T00__dlg__r01.json

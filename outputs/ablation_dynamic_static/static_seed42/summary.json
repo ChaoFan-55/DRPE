@@ -1,0 +1,12 @@
+{
+  "dataset": "cifar10",
+  "model": "resnet18",
+  "method": "drpe",
+  "seed": 42,
+  "best_round": 100.0,
+  "best_validation_accuracy": 77.84,
+  "test_accuracy": 77.16,
+  "test_loss": 0.6575622940063477,
+  "cumulative_uplink_mib": 5128.343200683594,
+  "cumulative_downlink_mib": 17050.112915039062
+}

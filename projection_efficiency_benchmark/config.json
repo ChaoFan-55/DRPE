@@ -1,0 +1,15 @@
+{
+  "training_config": "configs/cifar10/resnet18/drpe/drpe_r030_p75_eta200_seed42_fixed200.json",
+  "device": "cuda",
+  "compression_ratio": 0.3,
+  "block_size": 512,
+  "projection_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "warmup": 20,
+  "timed_repeats": 200,
+  "memory_repeats": 20,
+  "output_dir": "./projection_efficiency_benchmark/results"
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "fedavg__m42__T00__idlg__r01",
+  "status": "success",
+  "row": {
+    "run_id": "fedavg__m42__T00__idlg__r01",
+    "method": "fedavg",
+    "model_seed": "42",
+    "target_id": "T00",
+    "sample_index": "7320",
+    "class_id": "0",
+    "class_name": "airplane",
+    "attack": "idlg",
+    "restart": "1",
+    "attack_base_seed": "3402",
+    "checkpoint_round": "20",
+    "transmission_round": "21"
+  },
+  "command": [
+    "python",
+    "./scripts/run_classic_attack_experiment.py",
+    "--config",
+    "./privacy_main_benchmark/results/generated_configs/fedavg/fedavg__m42__T00__idlg__r01.json"
+  ],
+  "started_at_unix": 1786852719.5129702,
+  "finished_at_unix": 1786852912.7706058,
+  "elapsed_seconds": 193.2566847000271,
+  "return_code": 0
+}
